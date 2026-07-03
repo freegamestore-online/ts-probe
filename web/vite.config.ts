@@ -41,9 +41,9 @@ export default defineConfig({
       // field passes through to the emitted manifest.webmanifest; browsers
       // ignore unknown members.
       manifest: {
-        name: "TS Probe",
-        short_name: "TS Probe",
-        description: "TS Probe — free forever",
+        name: "ts-probe",
+        short_name: "ts-probe",
+        description: "ts-probe — free forever",
         start_url: "/",
         display: "standalone",
         background_color: "#0f0f0f",

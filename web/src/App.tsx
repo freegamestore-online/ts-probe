@@ -2,14 +2,14 @@ import { GameShell, GameTopbar, GameAuth } from "@freegamestore/games";
 
 export default function App() {
   return (
-    <GameShell topbar={<GameTopbar title="TS Probe" score={0} />}>
+    <GameShell topbar={<GameTopbar title="ts-probe" score={0} />}>
       <GameAuth />
       <div className="flex flex-col items-center justify-center h-full gap-4">
         <h1
           className="text-3xl font-bold"
           style={{ fontFamily: "Fraunces, serif" }}
         >
-          TS Probe
+          ts-probe
         </h1>
         <p style={{ color: "var(--muted)" }}>
           Edit <code>src/App.tsx</code> to build your game.
